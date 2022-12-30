@@ -13,9 +13,14 @@ public class Main {
         try (Stream<String> lines = Files.lines(Paths.get("dictionary.txt"))) {
             result = lines.collect(Collectors.toList());
         }
-
+//        run for palinfrome results
+//        result.stream().forEach((x) -> {
+//            Palindrome.isPalindrome(x);
+//        })
+//         run for words that start with b-m
         result.stream().forEach((x) -> {
-            Palindrome.isPalindrome(x);
+            WordGroup.lettersAtoB(x);
+;
         });
     }
 }
