@@ -39,8 +39,26 @@ public class WordGroup {
                 return s2;
         });
 
+        String longestWord = String.valueOf(longest);
 
-        System.out.println("The longest word from range b-m is: " + longest);
+        int firstBracket = longestWord.indexOf('[');
+        int lastBracket = longestWord.indexOf(']');
+        String longestWordRevised = longestWord.substring(firstBracket + 1,lastBracket);
+
+        System.out.println("The longest word from range b-m is: " + longestWordRevised);
+
+        //find vowels
+
+        int count =0;
+
+        for (int i=0; i < longestWordRevised.length(); i++ ) {
+            if (longestWordRevised.charAt(i) == 'a' || longestWordRevised.charAt(i) == 'e' || longestWordRevised.charAt(i) == 'i' || longestWordRevised.charAt(i) == 'o' || longestWordRevised.charAt(i) == 'u') {
+                count++;
+            }
+        }
+
+        System.out.println("The number of vowels in the longest word (" + longestWordRevised +") is " + count);
+
     }
 
 
