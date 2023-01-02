@@ -17,10 +17,14 @@ public class Main {
 //        result.stream().forEach((x) -> {
 //            Palindrome.isPalindrome(x);
 //        })
+
 //         run for words that start with b-m
-        result.stream().forEach((x) -> {
-            WordGroup.lettersAtoB(x);
-;
-        });
+//        result.stream().forEach((x) -> {
+//            WordGroup.lettersBtoM(x);
+//        });
+
+        //run for exercise 2
+//        Exercise2 try1 = new Exercise2();
+
     }
 }
