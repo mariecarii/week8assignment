@@ -23,8 +23,12 @@ public class Main {
 //            WordGroup.lettersBtoM(x);
 //        });
 
+//      run to find longest word in b-m range
+//        WordGroup.longestWord();
+
         //run for exercise 2
 //        Exercise2 try1 = new Exercise2();
+
 
     }
 }
