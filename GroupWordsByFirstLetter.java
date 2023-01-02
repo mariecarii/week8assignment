@@ -18,6 +18,7 @@ public class GroupWordsByFirstLetter {
                 filter(s -> s.length() > 0).
                 map(s -> s.toLowerCase()).
                 collect(Collectors.groupingBy(s -> s.charAt(0))
+                        
         );
 
 

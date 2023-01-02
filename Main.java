@@ -33,7 +33,8 @@ public class Main {
 //        run for exercise 2
 //        Exercise2 try1 = new Exercise2();
 
-        System.out.println(GroupWordsByFirstLetter.groupWords());
+//      run for function that groups words by first letter
+//        System.out.println(GroupWordsByFirstLetter.groupWords());
 
     }
 }
